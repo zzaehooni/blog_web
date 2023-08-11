@@ -6,7 +6,7 @@
 }
 
 .title-container {
-  background-image: url("../public/img/test3.png"); 
+  background-image: url("../public/img/test3.png"); /* 이미지 경로 설정 */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,16 +38,17 @@
 .button-group {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px; 
-  justify-items: center; 
+  grid-gap: 20px; /* 버튼 사이 간격 */
+  justify-items: center; /* 가로 정렬 */
   margin-top: 30px;
 }
 
 .button-group button {
+  width: 100%;
   background-color: #294aac; 
   color: white;
   border: none;
-  padding: 15px 30px;
+  padding: 70px;
   margin: 0 50px;
   cursor: pointer;
   border-radius: 6px;
