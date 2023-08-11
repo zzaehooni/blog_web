@@ -20,16 +20,16 @@ function Title(props) {
         <button onClick={() => props.exampleEvent("연남동 맛집 관련 결과")}>
           연남동
         </button>
-	<button onClick={() => props.exampleEvent("종로 맛집 관련 결과")}>
+        <button onClick={() => props.exampleEvent("종로 맛집 관련 결과")}>
           종로
         </button>
-	<button onClick={() => props.exampleEvent("서면 맛집 관련 결과")}>
+        <button onClick={() => props.exampleEvent("서면 맛집 관련 결과")}>
           서면
         </button>
-	<button onClick={() => props.exampleEvent("동성로 맛집 관련 결과")}>
+        <button onClick={() => props.exampleEvent("동성로 맛집 관련 결과")}>
           동성로
         </button>
-	<button onClick={() => props.exampleEvent("애월 맛집 관련 결과")}>
+        <button onClick={() => props.exampleEvent("애월 맛집 관련 결과")}>
           애월
         </button>
       </div>
