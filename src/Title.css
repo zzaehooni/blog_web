@@ -1,43 +1,68 @@
+@font-face {
+  font-family: 'BMJUA';
+  src: url('../public/fonts/bmjua.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .title-container {
-  text-align: center;
-  margin: 40px auto;
+  background-image: url("../public/img/test3.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 35vh;
 }
 
 .title {
-  font-size: 36px;
-  margin-bottom: 10px;
-  color: #8fc8ee; 
+  font-size: 26px;
+  margin-bottom: 5px;
+  color: rgb(110, 247, 124);
+  font-family: 'BMJUA', sans-serif;
 }
+
+
 
 .subtitle {
-  font-size: 18px;
-  color: #666;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: 'BMJUA', sans-serif;
 }
 
+
 .highlight {
-  color: #e74c3c; 
+  font-size: 60px;
+  color: rgb(218, 242, 3); 
 }
 
 .button-group {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; 
+  justify-items: center; 
   margin-top: 30px;
 }
 
 .button-group button {
-  background-color: #e74c3c; 
+  background-color: #294aac; 
   color: white;
   border: none;
-  padding: 10px 20px;
-  margin: 0 15px;
+  padding: 15px 30px;
+  margin: 0 50px;
   cursor: pointer;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 24px;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  text-transform: uppercase; 
+  text-transform: uppercase;
+  font-family: 'BMJUA', sans-serif;
 }
 
 .button-group button:hover {
-  background-color: #c0392b; 
+  background-color: #9fbbea; 
   transform: scale(1.05); 
+}
+
+.button-group button.selected {
+  background-color: #c0392b;
+  transform: scale(1.05);
 }
